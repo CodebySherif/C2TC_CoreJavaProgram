@@ -1,8 +1,7 @@
-package com.tnsif.placementmanagement.certificate;
-
-import org.springframework.data.jpa.repository.JpaRepository;
+package com.tnsif.placement.Repository;
 
 import com.tnsif.placement.entity.Certificate;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CertificateRepository extends JpaRepository<Certificate, Long> {
 }
